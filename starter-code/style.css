@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&family=Inter:wght@400;600;700&display=swap");
+
+:root {
+  --color-background: #faf8f6;
+  --color-dark-blue: #172339;
+  --color-gray: #49566d;
+  --color-cream-white: #faf8f6;
+  --color-background-dark: #f3ede7;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Epilogue;
+  background-color: var(--color-background);
+  padding: 2em 16em;
+}
+/* Nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > button {
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  border: 0.1em solid var(--color-dark-blue);
+  background: transparent;
+  color: var(--color-dark-blue);
+  font-size: 1em;
+}
+
+/* Main style */
+main {
+  margin-top: 2em;
+  margin-bottom: -10em;
+  position: relative;
+  z-index: 2;
+}
+/* First Hero section style */
+.hero {
+  height: 38em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-description {
+  width: 75em;
+  z-index: 2;
+}
+
+.hero-description > h1 {
+  margin-top: 1em;
+  font-weight: normal;
+  font-size: 4em;
+  color: var(--color-dark-blue);
+}
+
+.hero-description > h1 > span {
+  font-weight: bold;
+}
+
+.hero-description > p {
+  font-size: 1em;
+  margin-top: 2em;
+  color: var(--color-gray);
+}
+
+.hero-description > button {
+  margin-top: 3em;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+  border: 0.1em solid var(--color-dark-blue);
+  color: var(--color-cream-white);
+  background-color: var(--color-dark-blue);
+  font-size: 1em;
+}
+.portrait-image {
+  position: absolute;
+  left: 27em;
+  top: 0em;
+  z-index: 1;
+  width: 24em;
+}
+
+.curved1-image {
+  position: absolute;
+  left: 16em;
+  top: 7em;
+  z-index: 2;
+}
+
+.hero-info-numbers {
+  padding-right: 5em;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-info-numbers > div > h2 {
+  font-size: 2em;
+  color: var(--color-dark-blue);
+}
+
+.hero-info-numbers > div > p {
+  font-size: 1em;
+  color: var(--color-gray);
+}
+
+/* Second Hero section style */
+.hero2 {
+  height: 35em;
+  background-color: var(--color-dark-blue);
+  margin-top: 20em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1em;
+  z-index: 1;
+}
+
+.jeremy-image {
+  width: 23em;
+  position: absolute;
+  left: 13em;
+  top: 55.4em;
+  z-index: 2;
+}
+.blur-image {
+  position: absolute;
+  left: 6em;
+  top: 65em;
+  z-index: 1;
+}
+.curve2-image {
+  position: absolute;
+  left: 41em;
+  top: 72em;
+  width: 6em;
+}
+
+.info-hero2 {
+  margin-left: 18em;
+  width: 25em;
+  font-style: normal;
+  font-weight: 400;
+}
+.info-hero2 > h1 {
+  color: var(--color-background);
+  font-size: 3em;
+  line-height: 3em;
+  font-weight: normal;
+}
+.info-hero2 > h1 > span {
+  font-weight: bold;
+}
+
+.info-hero2 > h3,
+p {
+  color: var(--color-cream-white);
+  line-height: 2em;
+}
+
+.info2-paragraph {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+.info2-paragraph2 {
+  letter-spacing: 0.3em;
+}
+
+/* Footer style */
+footer {
+  background-color: var(--color-background-dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 14em;
+  position: relative;
+  margin-bottom: -2em;
+  margin-left: -16em;
+  margin-right: -16em;
+  padding-left: 16em;
+  padding-right: 16em;
+  padding-top: 20em;
+  padding-bottom: 4em;
+  z-index: 0;
+}
+
+footer > p {
+  color: var(--color-gray);
+}
+
+footer > ul {
+  width: 6em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}

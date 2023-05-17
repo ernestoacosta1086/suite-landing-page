@@ -1,43 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Suite landing page</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-  Request Beta Access
-
-  A super solution for your business.
-
-  Our marketing and sales automations help you scale your outreach to 
-  get more leads for your company. 
-
-  Request Beta Access
-
-  2K+
-  Companies
-
-  8
-  Languages
-
-  1.2M
-  Leads
-
-  It just works.
-
-  “I really like how it is an all-in-one solution that handle many of 
-  the tasks that you would normally need separate tools to do the same 
-  job. This thing is a miracle worker.”
-
-  Jeremy Robinson
-  CMO, Fylo
-
-  Copyright - Suite
-
-</body>
+    <title>Frontend Mentor | Suite landing page</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./assets/logo.svg" alt="Logo" />
+      <button>Request Beta Access</button>
+    </nav>
+    <main>
+      <div class="hero">
+        <div class="hero-description">
+          <h1>
+            A <span>super solution</span> <br />
+            for your <span>business.</span>
+          </h1>
+          <p>
+            Our marketing and sales automations <br />
+            help you scale your outreach to get <br />
+            more leads for your company.
+          </p>
+          <button>Request Beta Access</button>
+        </div>
+        <img
+          class="portrait-image"
+          src="./assets/image-hero-portrait@2x.png"
+          alt="Hero"
+        />
+        <img
+          class="curved1-image"
+          src="./assets/pattern-curved-line-1.svg"
+          alt=""
+        />
+        <div class="hero-info-numbers">
+          <div>
+            <h2>2K+</h2>
+            <p>Companies</p>
+          </div>
+          <div>
+            <h2>8</h2>
+            <p>Languages</p>
+          </div>
+          <div>
+            <h2>1.2M</h2>
+            <p>Leads</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero2">
+        <div>
+          <img
+            class="jeremy-image"
+            src="./assets/image-jeremy-large@2x.png"
+            alt="Jeremy"
+          />
+        </div>
+        <img class="blur-image" src="./assets/pattern-blur.svg" alt="" />
+        <img
+          class="curve2-image"
+          src="./assets/pattern-curved-line-2.svg"
+          alt=""
+        />
+        <div class="info-hero2">
+          <h1>It just <span>works.</span></h1>
+          <p class="info2-paragraph">
+            “I really like how it is an all-in-one solution that handle many of
+            the tasks that you would normally need separate tools to do the same
+            job. This thing is a miracle worker.”
+          </p>
+          <br />
+          <h3>JEREMY ROBINSON</h3>
+          <p class="info2-paragraph2">CMO, &nbsp;FYLO</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img src="./assets/logo.svg" alt="Logo" />
+      <p>Copyright - Suite</p>
+      <ul>
+        <li><img src="./assets/icon-facebook.svg" alt="Facebook" /></li>
+        <li><img src="./assets/icon-twitter.svg" alt="Twitter" /></li>
+        <li><img src="./assets/icon-instagram.svg" alt="Instagram" /></li>
+      </ul>
+    </footer>
+  </body>
 </html>
