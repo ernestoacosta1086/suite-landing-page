@@ -48,7 +48,7 @@ nav > button:hover {
   cursor: pointer;
 }
 
-/* Main style */
+/* Main style 2 sections hero-section and hero2-section*/
 main {
   position: relative;
   display: flex;
@@ -139,7 +139,7 @@ main {
   color: var(--color-gray);
 }
 
-/* Second Hero section style */
+/* Second Hero2 section style */
 .hero2-section {
   height: 34em;
   background-color: var(--color-dark-blue);
@@ -227,6 +227,7 @@ footer > ul > li:hover {
 }
 
 /* Responsive design */
+/* I never complete this media (max-width: 480px) because my google chrome go minimum to 500px */
 @media only screen and (max-width: 480px) {
   /* body {
     background-color: red;
